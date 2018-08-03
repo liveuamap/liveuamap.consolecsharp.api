@@ -55,8 +55,11 @@ namespace Liveuamap
             this.lng = jsonobj["lng"].ToString();
             this.source = jsonobj["source"].ToString();
             this.link = jsonobj["link"].ToString();
-            this.time = jsonobj["time"].ToString();
-            
+            this.time = jsonobj["timestamp"].ToString();
+
+            DateTime epoch = new DateTime(1970, 1, 1, 0, 0, 0, 0).ToLocalTime();
+            this.timeDt = epoch.AddSeconds(Convert.ToInt64(this.time));
+
             //resources
             this.resid = Convert.ToInt32(jsonobj["resid"]);
             this.resource= Convert.ToInt32(jsonobj["resource"]);

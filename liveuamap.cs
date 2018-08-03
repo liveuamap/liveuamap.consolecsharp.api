@@ -203,6 +203,10 @@ namespace Liveuamap
         {
             this.liveRegion = rgn;
         }
+        public void setCount(int count)
+        {
+            this.count = count;
+        }
         public void setTime(DateTime dt)
         {
             long unixTime = ((DateTimeOffset)dt).ToUnixTimeSeconds();

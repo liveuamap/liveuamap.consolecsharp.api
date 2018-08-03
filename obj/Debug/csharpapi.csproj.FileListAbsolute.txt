@@ -5,3 +5,10 @@ D:\s\liveuamap.consolecsharp.api\csharpapi\obj\Debug\csharpapi.csprojAssemblyRef
 D:\s\liveuamap.consolecsharp.api\csharpapi\obj\Debug\csharpapi.csproj.CoreCompileInputs.cache
 D:\s\liveuamap.consolecsharp.api\csharpapi\obj\Debug\csharpapi.exe
 D:\s\liveuamap.consolecsharp.api\csharpapi\obj\Debug\csharpapi.pdb
+D:\s\liveuamap.consolecsharp.api\bin\Debug\csharpapi.exe.config
+D:\s\liveuamap.consolecsharp.api\bin\Debug\csharpapi.exe
+D:\s\liveuamap.consolecsharp.api\bin\Debug\csharpapi.pdb
+D:\s\liveuamap.consolecsharp.api\obj\Debug\csharpapi.csprojAssemblyReference.cache
+D:\s\liveuamap.consolecsharp.api\obj\Debug\csharpapi.csproj.CoreCompileInputs.cache
+D:\s\liveuamap.consolecsharp.api\obj\Debug\csharpapi.exe
+D:\s\liveuamap.consolecsharp.api\obj\Debug\csharpapi.pdb

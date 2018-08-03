@@ -18,6 +18,7 @@ namespace csharpapi
             string access_token = "25b7c1b9905101cbf1551d534da9e811";
             liveuamap lapi = new liveuamap(access_token);
 
+            lapi.setCount(20);//20 latest events
 
             //get latest liveuamap points for Afghanistan and Now
             mpts newmpts = lapi.getMpts(Regions.Afghanistan,DateTime.Now);
@@ -25,7 +26,7 @@ namespace csharpapi
             if (!lapi.wasExecutedWithError()) { 
             foreach(liveEvent le in newmpts.events)
             {
-                    Console.WriteLine(le.name);
+                    Console.WriteLine(string.Format("{0}: {1} at {2},{3}", le.timeDt.ToString("HH:mm dd.MM"), le.name.Trim(),le.lat,le.lng));
                 }
             }
             else
