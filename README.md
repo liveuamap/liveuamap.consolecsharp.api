@@ -5,3 +5,5 @@ watch: https://www.youtube.com/watch?v=Ee4TkyHpMIk how to get API access (and, i
 
 
 Accessing https://a.liveuamap.com/api 
+
+This example loading latest 20 events from Afghanistan, showing them on console with time & geographical coordinates
